@@ -1,0 +1,11 @@
+## .gitignore ##
+# ignore all
+*
+*/
+
+# allow
+!*.gitignore
+!*.cpp
+!*.h
+!*.png
+!*.md
