@@ -1,11 +1,9 @@
 ## .gitignore ##
-# ignore all
-*
-*/
+# ignore
+/.*
+
+plantuml
+*.puml
 
 # allow
-!*.gitignore
-!*.cpp
-!*.h
-!*.png
-!*.md
+!.gitignore
