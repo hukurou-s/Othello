@@ -1,17 +1,17 @@
-#include "piece.hpp"
+#include "square.hpp"
 #include <iostream>
 
 int main() {
 
-  Piece* piece = new Piece;
+  Square* square = new Square;
 
-  std::string color = piece->getColor();
-  std::cout << color << std::endl;
+  std::string piece_color = square->getPieceColor();
+  std::cout << piece_color << std::endl;
 
-  piece->changeColor("BLACK");
+  square->changePieceColor("WHITE");
 
-  color = piece->getColor();
-  std::cout << color << std::endl;
+  piece_color = square->getPieceColor();
+  std::cout << piece_color << std::endl;
 
   return 0;
 

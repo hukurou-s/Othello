@@ -11,7 +11,7 @@ public:
   // Piece(const Piece& other);    // コピーコンストラクタ
   ~Piece();
 
-  Piece& operator=(const Piece& other);    // 代入演算子
+  //Piece& operator=(const Piece& other) = default;    // 代入演算子
 
   void changeColor(std::string color);
   std::string getColor();
