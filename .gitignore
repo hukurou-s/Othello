@@ -1,8 +1,9 @@
 ## .gitignore ##
 # ignore
-/.*
+.*
+*.out
 
-plantuml
+#plantuml
 *.puml
 
 # allow
