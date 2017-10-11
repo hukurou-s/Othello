@@ -2,6 +2,7 @@
 # ignore
 .*
 *.out
+*.o
 
 #plantuml
 *.puml
